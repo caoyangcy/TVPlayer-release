@@ -1,10 +1,12 @@
 {
-  "versionCode": 88,
-  "versionName": "0.26.9",
-  "notes": "新增直播回放：m3u catchup 能力探测与缓存，EPG 已结束节目回看入口，回看地址播放与进度拖动",
-  "apkUrl": "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.9/TVPlayer_v0.26.9_debug.apk",
-  "apkMirrors": ["https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.9.apk"],
-  "sha256": "41be729aefe30560bfd8245cafa6479490d94c507fd1073627f6ce23d1b671b1",
-  "force": false,
-  "minSupported": 0
+    "versionCode":  89,
+    "versionName":  "0.26.10",
+    "notes":  "设置页按屏幕宽度响应式收紧间距：手机紧凑、电视/大屏保持宽松，统一间距常量并保证 48dp 点击热区",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.10/TVPlayer_v0.26.10_debug.apk",
+    "apkMirrors":  [
+                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.10.apk"
+                   ],
+    "sha256":  "af819391b5b10d0988daf413a2a454e69cad48c47701645f674a2763b460cf43",
+    "force":  false,
+    "minSupported":  0
 }
