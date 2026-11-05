@@ -1,12 +1,12 @@
 {
-    "versionCode":  85,
-    "versionName":  "0.26.6",
-    "notes":  "修复更新说明渲染：分号/顿号/逗号/空格拆分，编号与正文分行并悬挂缩进",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.6/TVPlayer_v0.26.6_debug.apk",
+    "versionCode":  86,
+    "versionName":  "0.26.7",
+    "notes":  "修复下载超时：发布 APK 增加 Pages 同源镜像并优先使用，publish 脚本自动上传镜像",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.7/TVPlayer_v0.26.7_debug.apk",
     "apkMirrors":  [
-
+        "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.7.apk"
                    ],
-    "sha256":  "4a9b55e0e2ca42860e6c1cf1efd17a6cd53fb26db17b0bf0cd02f1161ac0268a",
+    "sha256":  "93aa58510b765578dcbe67e99e96bcb501dc89e4721a4f349866933b96a16076",
     "force":  false,
     "minSupported":  0
 }
