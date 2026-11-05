@@ -1,12 +1,10 @@
 {
-    "versionCode":  87,
-    "versionName":  "0.26.8",
-    "notes":  "存储管理去掉说明文字并展示占比；添加直播源/接口入口默认折叠",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.8/TVPlayer_v0.26.8_debug.apk",
-    "apkMirrors":  [
-                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.8.apk"
-                   ],
-    "sha256":  "fec41ac86af947a922f7e13519ebfc6e226dc51b713e451410a9533979655bb3",
-    "force":  false,
-    "minSupported":  0
+  "versionCode": 88,
+  "versionName": "0.26.9",
+  "notes": "新增直播回放：m3u catchup 能力探测与缓存，EPG 已结束节目回看入口，回看地址播放与进度拖动",
+  "apkUrl": "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.9/TVPlayer_v0.26.9_debug.apk",
+  "apkMirrors": ["https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.9.apk"],
+  "sha256": "41be729aefe30560bfd8245cafa6479490d94c507fd1073627f6ce23d1b671b1",
+  "force": false,
+  "minSupported": 0
 }
