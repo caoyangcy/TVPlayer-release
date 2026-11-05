@@ -1,12 +1,12 @@
 {
-    "versionCode":  83,
-    "versionName":  "0.26.4",
-    "notes":  "直播源默认只显示健康度第 1 个可用源，其余折叠",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.4/TVPlayer_v0.26.4_debug.apk",
+    "versionCode":  84,
+    "versionName":  "0.26.5",
+    "notes":  "设置页底部版本号行移除；更新说明按条目拆分为编号列表",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.5/TVPlayer_v0.26.5_debug.apk",
     "apkMirrors":  [
 
                    ],
-    "sha256":  "769bd6dc0d3b92c8ad68396e39540bbc2e27681e2b57b553c2fa5482d13e5add",
+    "sha256":  "5ad28591ef0cdc955e6c2602ed7c21f7e9247e7d86b10a636920a6fb4bf6555a",
     "force":  false,
     "minSupported":  0
 }
