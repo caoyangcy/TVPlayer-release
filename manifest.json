@@ -1,12 +1,12 @@
 {
-    "versionCode":  89,
-    "versionName":  "0.26.10",
-    "notes":  "设置页按屏幕宽度响应式收紧间距：手机紧凑、电视/大屏保持宽松，统一间距常量并保证 48dp 点击热区",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.10/TVPlayer_v0.26.10_debug.apk",
+    "versionCode":  90,
+    "versionName":  "0.26.11",
+    "notes":  "重构设置页：四组卡片化结构、统一行样式与折叠入口；修复存储清理按钮在手机被压成竖条",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.11/TVPlayer_v0.26.11_debug.apk",
     "apkMirrors":  [
-                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.10.apk"
+                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.11.apk"
                    ],
-    "sha256":  "af819391b5b10d0988daf413a2a454e69cad48c47701645f674a2763b460cf43",
+    "sha256":  "05bc90dfc86311332ffe28bb12aa1d878f535b4e8011d26e4a2466860cfcd15a",
     "force":  false,
     "minSupported":  0
 }
