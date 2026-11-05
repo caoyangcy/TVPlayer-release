@@ -1,12 +1,12 @@
 {
-    "versionCode":  86,
-    "versionName":  "0.26.7",
-    "notes":  "修复下载超时：发布 APK 增加 Pages 同源镜像并优先使用，publish 脚本自动上传镜像",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.7/TVPlayer_v0.26.7_debug.apk",
+    "versionCode":  87,
+    "versionName":  "0.26.8",
+    "notes":  "存储管理去掉说明文字并展示占比；添加直播源/接口入口默认折叠",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.8/TVPlayer_v0.26.8_debug.apk",
     "apkMirrors":  [
-        "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.7.apk"
+                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.8.apk"
                    ],
-    "sha256":  "93aa58510b765578dcbe67e99e96bcb501dc89e4721a4f349866933b96a16076",
+    "sha256":  "fec41ac86af947a922f7e13519ebfc6e226dc51b713e451410a9533979655bb3",
     "force":  false,
     "minSupported":  0
 }
