@@ -1,10 +1,12 @@
 {
-  "versionCode": 79,
-  "versionName": "0.26.1",
-  "notes": "最近 3 项变更：多源更新检查；搜索筛选与拼音支持；EPG 加深与电视无障碍优化。",
-  "apkUrl": "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.1/TVPlayer_v0.26.1_debug.apk",
-  "apkMirrors": [],
-  "sha256": "676e3be4d059c560e096bf7a8ddf3e8f4147c75869d52087cb2b81e879006b55",
-  "force": false,
-  "minSupported": 79
+    "versionCode":  80,
+    "versionName":  "0.26.1",
+    "notes":  "检查更新：多源顺序切换与下载镜像/加速前缀，逐源状态与静默15秒预算，版本0.26.1",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.1/TVPlayer_v0.26.1_debug.apk",
+    "apkMirrors":  [
+
+                   ],
+    "sha256":  "0cff3d3d3e9f15525b0f0bf8de68c784d474b50b03f8fc0befb52a53d6b9ee1b",
+    "force":  false,
+    "minSupported":  0
 }
