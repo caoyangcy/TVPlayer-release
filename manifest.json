@@ -1,12 +1,12 @@
 {
-    "versionCode":  82,
-    "versionName":  "0.26.3",
-    "notes":  "设置页再收敛：更新状态精简、自动清理改下拉框、直播源隐藏不可用源、接口默认只显示最优一个",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.3/TVPlayer_v0.26.3_debug.apk",
+    "versionCode":  83,
+    "versionName":  "0.26.4",
+    "notes":  "直播源默认只显示健康度第 1 个可用源，其余折叠",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.4/TVPlayer_v0.26.4_debug.apk",
     "apkMirrors":  [
 
                    ],
-    "sha256":  "f9de7754ce8ed1a4fd772206ac895fa17aa1316323707b8ba9255a059fae92ff",
+    "sha256":  "769bd6dc0d3b92c8ad68396e39540bbc2e27681e2b57b553c2fa5482d13e5add",
     "force":  false,
     "minSupported":  0
 }
