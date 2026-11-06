@@ -1,1 +1,41 @@
-{"force":false,"minSupported":0,"versionCode":100,"apkMirrors":["https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.21.apk"],"apkUrl":"https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.21/TVPlayer_v0.26.21_debug.apk","notes":"缓冲与重试：点播页缓冲超过 0.4 秒在右上角显示 spinner +「缓冲中（网络较慢）」；全部线路与所有片源失败时给出可聚焦的「重试本线路 / 换线路」，默认焦点在重试按钮，遥控器确定键直接可用。返回焦点还原：首页分类行卡片、电视详情剧集网格、播放页选集面板、直播频道列表记录焦点卡片，从详情/播放返回时还原到进入前那张；首次进入才用默认焦点。电视端文字输入：自绘 KeyPad 抽为可复用组件，设置页添加影视接口/直播源与重命名在电视档用自绘键盘（不弹系统 IME），手机平板仍用系统输入框。后台与断网：播放页切后台自动暂停并落盘进度，回前台不自动续播；断网时窗口顶部固定短提示，恢复后自动消失，不随滚动丢失、不误伤正常缓冲。","versionName":"0.26.21","sha256":"56a6a2e23835450f6b9cb3fefa918f77d402d999db61a692f9e6ac4d9f7e68ba"}
+{
+    "versionCode":  101,
+    "versionName":  "0.26.22",
+    "notes":  "发布产物只保留最新包：publish.cmd 成功后清理本地旧包与临时清单、支持 --keep-previous；AGENTS.md 写入规则；补双安装包拆分方案文档",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.22/TVPlayer_v0.26.22_phone.apk",
+    "apkMirrors":  [
+                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.22_phone.apk"
+                   ],
+    "sha256":  "63d2cf9de8dc925665b0a777ec44c94fff7bdb88f96cd75a9e1489dedcf62dd6",
+    "size":  14621828,
+    "force":  false,
+    "minSupported":  0,
+    "channels":  {
+                     "phone":  {
+                                   "versionCode":  101,
+                                   "versionName":  "0.26.22",
+                                   "notes":  "发布产物只保留最新包：publish.cmd 成功后清理本地旧包与临时清单、支持 --keep-previous；AGENTS.md 写入规则；补双安装包拆分方案文档",
+                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.22/TVPlayer_v0.26.22_phone.apk",
+                                   "apkMirrors":  [
+                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.22_phone.apk"
+                                                  ],
+                                   "sha256":  "63d2cf9de8dc925665b0a777ec44c94fff7bdb88f96cd75a9e1489dedcf62dd6",
+                                   "size":  14621828,
+                                   "force":  false,
+                                   "minSupported":  0
+                               },
+                     "tv":  {
+                                "versionCode":  101,
+                                "versionName":  "0.26.22",
+                                "notes":  "发布产物只保留最新包：publish.cmd 成功后清理本地旧包与临时清单、支持 --keep-previous；AGENTS.md 写入规则；补双安装包拆分方案文档",
+                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.22/TVPlayer_v0.26.22_tv.apk",
+                                "apkMirrors":  [
+                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.22_tv.apk"
+                                               ],
+                                "sha256":  "009cb32209938b5d7bf3ddd5fb6b84b376105f7ded48ab5de9ee98cc2cbc26e1",
+                                "size":  14607297,
+                                "force":  false,
+                                "minSupported":  0
+                            }
+                 }
+}
