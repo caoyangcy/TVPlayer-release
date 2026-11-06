@@ -1,42 +1,39 @@
 {
-    "versionCode":  110,
-    "versionName":  "0.26.31",
-    "notes":  "TVPlayer 0.26.31（恢复被忽略的更新提示）\n\n- 「忽略此版本」现在可撤销：更新说明弹窗内，本地存在该版本的忽略记录时，与「忽略此版本」并排显示「恢复此版本提示」；无记录时不显示，不留空位也不置灰。\n- 点击后清除对应的 versionCode 忽略记录（持久化键 update_ignored_code / update_ignored_name），卡片立即从「已忽略」回到「有新版本」，无需重启、无需重新联网。\n- 更新卡片在已忽略状态新增「查看说明」入口（重启后需先点一次「检查更新」重新拉取详情）；状态文案区分「已忽略」与「已是最新」。\n- 忽略语义不变：只针对该 versionCode，出现更高版本仍正常提示。\n- 电视端弹窗按钮均可聚焦并有可见焦点，默认焦点仍落在「关闭」，返回键可关闭。\n\n手机端：忽略 / 恢复入口与卡片状态同步可用。\n电视端：按钮焦点可见，默认焦点「关闭」，恢复后卡片立即回到「有新版本」。\n\nversionCode: 110",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.31/TVPlayer_v0.26.31_phone.apk",
+    "versionCode":  111,
+    "versionName":  "0.26.32",
+    "notes":  "TVPlayer 0.26.32（下载进度可见）\n\n- 更新下载改为单一进度状态对象：准备连接 / 下载中 / 校验中 / 正在安装 / 下载失败五个阶段都有明确文字，不再只有一个转圈。\n- 进度区移到更新说明之前并自动滚回顶部，电视端一点下载就能看到，不用再往下翻被长说明挡住的进度。\n- 进度条加粗（电视 12dp / 手机 6dp），显示百分比 + 已下载 / 总大小，并给出实时速度；文字不小于正文档。\n- 进度刷新按 300ms 节流（约每秒 3 次，落在 2–4 次/秒区间），不按字节触发重组，电视端不再因频繁刷新掉帧。\n- 提供「取消下载」入口；取消后立即清理 `.part` 半成品，状态回到可重试，不留半包。\n- 下载失败保留多地址切换与逐地址失败原因，并显示可复制的下载地址；失败时不再显示 100% 进度条，避免误解为快好了。\n\n手机端：进度区紧凑（进度条 6dp、提示 11–13sp），取消 / 重试入口不变，布局不挤占原有说明区域。\n电视端：进度区位于弹窗说明区顶部、overscan 安全区内，字号 18–20sp、进度条 12dp，整块可聚焦查看，不遮挡下方「取消下载 / 关闭」按钮，默认焦点仍为「关闭」。\n\nversionCode: 111",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.32/TVPlayer_v0.26.32_phone.apk",
     "apkMirrors":  [
-                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.31_phone.apk",
-                       "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.31_phone.apk"
+                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.32_phone.apk"
                    ],
-    "sha256":  "93192f396f8788e5a3af36745c16bf343aa9627359c80d26ff1ebefccfa5472a",
-    "size":  15043644,
+    "sha256":  "cd43a4bf6a5e17e367b1ce8d508a5a8faa740df993947a713c977f98dbb42e23",
+    "size":  15053636,
     "force":  false,
     "minSupported":  0,
     "channels":  {
                      "phone":  {
-                                   "versionCode":  110,
-                                   "versionName":  "0.26.31",
-                                   "notes":  "TVPlayer 0.26.31（恢复被忽略的更新提示）\n\n- 「忽略此版本」现在可撤销：更新说明弹窗内，本地存在该版本的忽略记录时，与「忽略此版本」并排显示「恢复此版本提示」；无记录时不显示，不留空位也不置灰。\n- 点击后清除对应的 versionCode 忽略记录（持久化键 update_ignored_code / update_ignored_name），卡片立即从「已忽略」回到「有新版本」，无需重启、无需重新联网。\n- 更新卡片在已忽略状态新增「查看说明」入口（重启后需先点一次「检查更新」重新拉取详情）；状态文案区分「已忽略」与「已是最新」。\n- 忽略语义不变：只针对该 versionCode，出现更高版本仍正常提示。\n- 电视端弹窗按钮均可聚焦并有可见焦点，默认焦点仍落在「关闭」，返回键可关闭。\n\n手机端：忽略 / 恢复入口与卡片状态同步可用。\n电视端：按钮焦点可见，默认焦点「关闭」，恢复后卡片立即回到「有新版本」。\n\nversionCode: 110",
-                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.31/TVPlayer_v0.26.31_phone.apk",
+                                   "versionCode":  111,
+                                   "versionName":  "0.26.32",
+                                   "notes":  "TVPlayer 0.26.32（下载进度可见）\n\n- 更新下载改为单一进度状态对象：准备连接 / 下载中 / 校验中 / 正在安装 / 下载失败五个阶段都有明确文字，不再只有一个转圈。\n- 进度区移到更新说明之前并自动滚回顶部，电视端一点下载就能看到，不用再往下翻被长说明挡住的进度。\n- 进度条加粗（电视 12dp / 手机 6dp），显示百分比 + 已下载 / 总大小，并给出实时速度；文字不小于正文档。\n- 进度刷新按 300ms 节流（约每秒 3 次，落在 2–4 次/秒区间），不按字节触发重组，电视端不再因频繁刷新掉帧。\n- 提供「取消下载」入口；取消后立即清理 `.part` 半成品，状态回到可重试，不留半包。\n- 下载失败保留多地址切换与逐地址失败原因，并显示可复制的下载地址；失败时不再显示 100% 进度条，避免误解为快好了。\n\n手机端：进度区紧凑（进度条 6dp、提示 11–13sp），取消 / 重试入口不变，布局不挤占原有说明区域。\n电视端：进度区位于弹窗说明区顶部、overscan 安全区内，字号 18–20sp、进度条 12dp，整块可聚焦查看，不遮挡下方「取消下载 / 关闭」按钮，默认焦点仍为「关闭」。\n\nversionCode: 111",
+                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.32/TVPlayer_v0.26.32_phone.apk",
                                    "apkMirrors":  [
-                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.31_phone.apk",
-                                                      "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.31_phone.apk"
+                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.32_phone.apk"
                                                   ],
-                                   "sha256":  "93192f396f8788e5a3af36745c16bf343aa9627359c80d26ff1ebefccfa5472a",
-                                   "size":  15043644,
+                                   "sha256":  "cd43a4bf6a5e17e367b1ce8d508a5a8faa740df993947a713c977f98dbb42e23",
+                                   "size":  15053636,
                                    "force":  false,
                                    "minSupported":  0
                                },
                      "tv":  {
-                                "versionCode":  110,
-                                "versionName":  "0.26.31",
-                                "notes":  "TVPlayer 0.26.31（恢复被忽略的更新提示）\n\n- 「忽略此版本」现在可撤销：更新说明弹窗内，本地存在该版本的忽略记录时，与「忽略此版本」并排显示「恢复此版本提示」；无记录时不显示，不留空位也不置灰。\n- 点击后清除对应的 versionCode 忽略记录（持久化键 update_ignored_code / update_ignored_name），卡片立即从「已忽略」回到「有新版本」，无需重启、无需重新联网。\n- 更新卡片在已忽略状态新增「查看说明」入口（重启后需先点一次「检查更新」重新拉取详情）；状态文案区分「已忽略」与「已是最新」。\n- 忽略语义不变：只针对该 versionCode，出现更高版本仍正常提示。\n- 电视端弹窗按钮均可聚焦并有可见焦点，默认焦点仍落在「关闭」，返回键可关闭。\n\n手机端：忽略 / 恢复入口与卡片状态同步可用。\n电视端：按钮焦点可见，默认焦点「关闭」，恢复后卡片立即回到「有新版本」。\n\nversionCode: 110",
-                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.31/TVPlayer_v0.26.31_tv.apk",
+                                "versionCode":  111,
+                                "versionName":  "0.26.32",
+                                "notes":  "TVPlayer 0.26.32（下载进度可见）\n\n- 更新下载改为单一进度状态对象：准备连接 / 下载中 / 校验中 / 正在安装 / 下载失败五个阶段都有明确文字，不再只有一个转圈。\n- 进度区移到更新说明之前并自动滚回顶部，电视端一点下载就能看到，不用再往下翻被长说明挡住的进度。\n- 进度条加粗（电视 12dp / 手机 6dp），显示百分比 + 已下载 / 总大小，并给出实时速度；文字不小于正文档。\n- 进度刷新按 300ms 节流（约每秒 3 次，落在 2–4 次/秒区间），不按字节触发重组，电视端不再因频繁刷新掉帧。\n- 提供「取消下载」入口；取消后立即清理 `.part` 半成品，状态回到可重试，不留半包。\n- 下载失败保留多地址切换与逐地址失败原因，并显示可复制的下载地址；失败时不再显示 100% 进度条，避免误解为快好了。\n\n手机端：进度区紧凑（进度条 6dp、提示 11–13sp），取消 / 重试入口不变，布局不挤占原有说明区域。\n电视端：进度区位于弹窗说明区顶部、overscan 安全区内，字号 18–20sp、进度条 12dp，整块可聚焦查看，不遮挡下方「取消下载 / 关闭」按钮，默认焦点仍为「关闭」。\n\nversionCode: 111",
+                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.32/TVPlayer_v0.26.32_tv.apk",
                                 "apkMirrors":  [
-                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.31_tv.apk",
-                                                   "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.31_tv.apk"
+                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.32_tv.apk"
                                                ],
-                                "sha256":  "ef0209ecffed5743fd16f168064ad3a14ccc4dc418f0a579fe1df01074cc6264",
-                                "size":  15030645,
+                                "sha256":  "3724af0333b2f74d2bd772416ad09231bba705147cac9c455c6063870553c914",
+                                "size":  15040653,
                                 "force":  false,
                                 "minSupported":  0
                             }
