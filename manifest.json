@@ -1,42 +1,42 @@
 {
-    "versionCode":  108,
-    "versionName":  "0.26.29",
-    "notes":  "TVPlayer 0.26.29（遥控器交互审计修复）\n\n- 播放页失败面板：返回键不再直接退出播放器，先收起面板并把焦点还给播放器；飞行/确认后再次返回才逐级退出。\n- 主导航返回：直播 / 我的 / 设置等非首页 tab 按返回先切回首页；电视端内容区返回先回首页，焦点已在左侧导航时才交给系统退出；手机端首页再按返回才退出 App。\n- 详情返回焦点：分类页、搜索页、收藏、历史均接入焦点记忆（稳定 video.key），从详情返回先滚回原位置再把焦点落到原卡片；切换排序/分类时焦点留在对应 chip，不会出现无焦点；电视端子 tab 确定后自动下移进内容。\n- 设置页：开关、按钮、下拉菜单项统一补电视端可见焦点（描边+轻微缩放，手机端不变）；下拉展开自动聚焦首项、关闭回焦触发按钮；添加接口/直播源/重命名的自绘输入对话框关闭后还焦入口；局域网诊断停止后焦点回到「局域网发送」开关。\n- 播放与直播面板：关闭播放器菜单/「更多」面板、直播频道列表、节目单后显式还焦到原入口，避免遥控器按键无响应。\n- 直播遥控：上下换台增加 200ms 节流（长按不再连跳十几台）；支持媒体播放/暂停/播放/暂停键；回看模式下左右键用于时移（±10 秒，受节目时长约束），直播暂停且源支持时移时保持原行为。\n- 搜索页（电视端）：输入框改为只读，点击聚焦自绘键盘，不再拉起系统 IME；键盘「确定」与搜索按钮统一加载中禁用态并显示「搜索中」，加载中重复确认给出可见提示；键盘最后一行按「下」直接进入筛选/结果区；结果网格支持返回还原原卡片。\n\n手机端：返回语义、详情焦点还原、搜索加载反馈生效；无电视焦点描边、无键盘下移、无音频直通项。\n电视端：设置页与各面板焦点可见/还焦、搜索自绘键盘路径、直播节流与媒体键、回看时移生效。\n\nversionCode: 108",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.29/TVPlayer_v0.26.29_phone.apk",
+    "versionCode":  109,
+    "versionName":  "0.26.30",
+    "notes":  "TVPlayer 0.26.30（局域网诊断发送修复）\n\n- 修复电视包「设置 → 诊断与日志 → 局域网发送」扫码后浏览器显示 not found：根因是令牌在首次请求（含 HEAD 与扫码器预览）即被消费，随后的正式 GET 必然 404；现改为服务存活期内可重复下载，扫码预览、浏览器预取与刷新都不再失效。\n- 文件名按 URL path 规则 percent-encoding（中文、空格等），服务端解码后比对，并兼容二次编码与 query / fragment。\n- 404 / 405 返回可读中文文案，区分「地址无效或已过期」「诊断文件不存在」「局域网发送已停止」「仅支持 GET / HEAD」。\n- 选择局域网 IP 时排除 VPN、移动数据、Wi-Fi Direct 等虚拟网卡，优先 Wi-Fi 私有地址。\n- 诊断导出新增「局域网发送请求」段：最近 20 条方法、路径（token 已打码）、状态码、来源 IP，便于定位扫码访问了哪个地址。\n- 局域网面板提示改为「服务开启期间可重复下载；停止或离开页面后地址立即失效」。\n\n手机端：局域网发送与诊断导出同步修复；二维码保持原尺寸，地址显示编码后的 URL。\n电视端：扫码下载修复，面板提示更新；二维码仍为大尺寸高对比。\n\nversionCode: 109",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.30/TVPlayer_v0.26.30_phone.apk",
     "apkMirrors":  [
-                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.29_phone.apk",
-                       "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.29_phone.apk"
+                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.30_phone.apk",
+                       "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.30_phone.apk"
                    ],
-    "sha256":  "e2ebbf18c7f4c372efda70e6a9a84194c7388427f68471ef4f7ec910664630d1",
-    "size":  15031976,
+    "sha256":  "786d7422f830e728391e5482d49b8385c863f2676f1dc53dfe706a2b1046409e",
+    "size":  15037188,
     "force":  false,
     "minSupported":  0,
     "channels":  {
                      "phone":  {
-                                   "versionCode":  108,
-                                   "versionName":  "0.26.29",
-                                   "notes":  "TVPlayer 0.26.29（遥控器交互审计修复）\n\n- 播放页失败面板：返回键不再直接退出播放器，先收起面板并把焦点还给播放器；飞行/确认后再次返回才逐级退出。\n- 主导航返回：直播 / 我的 / 设置等非首页 tab 按返回先切回首页；电视端内容区返回先回首页，焦点已在左侧导航时才交给系统退出；手机端首页再按返回才退出 App。\n- 详情返回焦点：分类页、搜索页、收藏、历史均接入焦点记忆（稳定 video.key），从详情返回先滚回原位置再把焦点落到原卡片；切换排序/分类时焦点留在对应 chip，不会出现无焦点；电视端子 tab 确定后自动下移进内容。\n- 设置页：开关、按钮、下拉菜单项统一补电视端可见焦点（描边+轻微缩放，手机端不变）；下拉展开自动聚焦首项、关闭回焦触发按钮；添加接口/直播源/重命名的自绘输入对话框关闭后还焦入口；局域网诊断停止后焦点回到「局域网发送」开关。\n- 播放与直播面板：关闭播放器菜单/「更多」面板、直播频道列表、节目单后显式还焦到原入口，避免遥控器按键无响应。\n- 直播遥控：上下换台增加 200ms 节流（长按不再连跳十几台）；支持媒体播放/暂停/播放/暂停键；回看模式下左右键用于时移（±10 秒，受节目时长约束），直播暂停且源支持时移时保持原行为。\n- 搜索页（电视端）：输入框改为只读，点击聚焦自绘键盘，不再拉起系统 IME；键盘「确定」与搜索按钮统一加载中禁用态并显示「搜索中」，加载中重复确认给出可见提示；键盘最后一行按「下」直接进入筛选/结果区；结果网格支持返回还原原卡片。\n\n手机端：返回语义、详情焦点还原、搜索加载反馈生效；无电视焦点描边、无键盘下移、无音频直通项。\n电视端：设置页与各面板焦点可见/还焦、搜索自绘键盘路径、直播节流与媒体键、回看时移生效。\n\nversionCode: 108",
-                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.29/TVPlayer_v0.26.29_phone.apk",
+                                   "versionCode":  109,
+                                   "versionName":  "0.26.30",
+                                   "notes":  "TVPlayer 0.26.30（局域网诊断发送修复）\n\n- 修复电视包「设置 → 诊断与日志 → 局域网发送」扫码后浏览器显示 not found：根因是令牌在首次请求（含 HEAD 与扫码器预览）即被消费，随后的正式 GET 必然 404；现改为服务存活期内可重复下载，扫码预览、浏览器预取与刷新都不再失效。\n- 文件名按 URL path 规则 percent-encoding（中文、空格等），服务端解码后比对，并兼容二次编码与 query / fragment。\n- 404 / 405 返回可读中文文案，区分「地址无效或已过期」「诊断文件不存在」「局域网发送已停止」「仅支持 GET / HEAD」。\n- 选择局域网 IP 时排除 VPN、移动数据、Wi-Fi Direct 等虚拟网卡，优先 Wi-Fi 私有地址。\n- 诊断导出新增「局域网发送请求」段：最近 20 条方法、路径（token 已打码）、状态码、来源 IP，便于定位扫码访问了哪个地址。\n- 局域网面板提示改为「服务开启期间可重复下载；停止或离开页面后地址立即失效」。\n\n手机端：局域网发送与诊断导出同步修复；二维码保持原尺寸，地址显示编码后的 URL。\n电视端：扫码下载修复，面板提示更新；二维码仍为大尺寸高对比。\n\nversionCode: 109",
+                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.30/TVPlayer_v0.26.30_phone.apk",
                                    "apkMirrors":  [
-                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.29_phone.apk",
-                                                      "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.29_phone.apk"
+                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.30_phone.apk",
+                                                      "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.30_phone.apk"
                                                   ],
-                                   "sha256":  "e2ebbf18c7f4c372efda70e6a9a84194c7388427f68471ef4f7ec910664630d1",
-                                   "size":  15031976,
+                                   "sha256":  "786d7422f830e728391e5482d49b8385c863f2676f1dc53dfe706a2b1046409e",
+                                   "size":  15037188,
                                    "force":  false,
                                    "minSupported":  0
                                },
                      "tv":  {
-                                "versionCode":  108,
-                                "versionName":  "0.26.29",
-                                "notes":  "TVPlayer 0.26.29（遥控器交互审计修复）\n\n- 播放页失败面板：返回键不再直接退出播放器，先收起面板并把焦点还给播放器；飞行/确认后再次返回才逐级退出。\n- 主导航返回：直播 / 我的 / 设置等非首页 tab 按返回先切回首页；电视端内容区返回先回首页，焦点已在左侧导航时才交给系统退出；手机端首页再按返回才退出 App。\n- 详情返回焦点：分类页、搜索页、收藏、历史均接入焦点记忆（稳定 video.key），从详情返回先滚回原位置再把焦点落到原卡片；切换排序/分类时焦点留在对应 chip，不会出现无焦点；电视端子 tab 确定后自动下移进内容。\n- 设置页：开关、按钮、下拉菜单项统一补电视端可见焦点（描边+轻微缩放，手机端不变）；下拉展开自动聚焦首项、关闭回焦触发按钮；添加接口/直播源/重命名的自绘输入对话框关闭后还焦入口；局域网诊断停止后焦点回到「局域网发送」开关。\n- 播放与直播面板：关闭播放器菜单/「更多」面板、直播频道列表、节目单后显式还焦到原入口，避免遥控器按键无响应。\n- 直播遥控：上下换台增加 200ms 节流（长按不再连跳十几台）；支持媒体播放/暂停/播放/暂停键；回看模式下左右键用于时移（±10 秒，受节目时长约束），直播暂停且源支持时移时保持原行为。\n- 搜索页（电视端）：输入框改为只读，点击聚焦自绘键盘，不再拉起系统 IME；键盘「确定」与搜索按钮统一加载中禁用态并显示「搜索中」，加载中重复确认给出可见提示；键盘最后一行按「下」直接进入筛选/结果区；结果网格支持返回还原原卡片。\n\n手机端：返回语义、详情焦点还原、搜索加载反馈生效；无电视焦点描边、无键盘下移、无音频直通项。\n电视端：设置页与各面板焦点可见/还焦、搜索自绘键盘路径、直播节流与媒体键、回看时移生效。\n\nversionCode: 108",
-                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.29/TVPlayer_v0.26.29_tv.apk",
+                                "versionCode":  109,
+                                "versionName":  "0.26.30",
+                                "notes":  "TVPlayer 0.26.30（局域网诊断发送修复）\n\n- 修复电视包「设置 → 诊断与日志 → 局域网发送」扫码后浏览器显示 not found：根因是令牌在首次请求（含 HEAD 与扫码器预览）即被消费，随后的正式 GET 必然 404；现改为服务存活期内可重复下载，扫码预览、浏览器预取与刷新都不再失效。\n- 文件名按 URL path 规则 percent-encoding（中文、空格等），服务端解码后比对，并兼容二次编码与 query / fragment。\n- 404 / 405 返回可读中文文案，区分「地址无效或已过期」「诊断文件不存在」「局域网发送已停止」「仅支持 GET / HEAD」。\n- 选择局域网 IP 时排除 VPN、移动数据、Wi-Fi Direct 等虚拟网卡，优先 Wi-Fi 私有地址。\n- 诊断导出新增「局域网发送请求」段：最近 20 条方法、路径（token 已打码）、状态码、来源 IP，便于定位扫码访问了哪个地址。\n- 局域网面板提示改为「服务开启期间可重复下载；停止或离开页面后地址立即失效」。\n\n手机端：局域网发送与诊断导出同步修复；二维码保持原尺寸，地址显示编码后的 URL。\n电视端：扫码下载修复，面板提示更新；二维码仍为大尺寸高对比。\n\nversionCode: 109",
+                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.30/TVPlayer_v0.26.30_tv.apk",
                                 "apkMirrors":  [
-                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.29_tv.apk",
-                                                   "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.29_tv.apk"
+                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.30_tv.apk",
+                                                   "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.30_tv.apk"
                                                ],
-                                "sha256":  "d5256d4df661c57a949ae4bcca01bee7148eb29a2828da8d0d59b372c016c90f",
-                                "size":  15019177,
+                                "sha256":  "57b630118c8ca6704ed3e8d4c8369cd9c6e6c739ce0c73cb1568e38e52a359cb",
+                                "size":  15024265,
                                 "force":  false,
                                 "minSupported":  0
                             }
