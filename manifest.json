@@ -1,39 +1,39 @@
 {
-    "versionCode":  103,
-    "versionName":  "0.26.24",
-    "notes":  "feat: 播放页底部控制条双端重构 + 诊断局域网发送（0.26.24）",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.24/TVPlayer_v0.26.24_phone.apk",
+    "versionCode":  104,
+    "versionName":  "0.26.25",
+    "notes":  "TVPlayer 0.26.25：音频焦点与媒体会话、启动 IO 异步化；移除 A-B、播放信息、截图、外部播放器、可调步长与主题开关",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.25/TVPlayer_v0.26.25_phone.apk",
     "apkMirrors":  [
-                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.24_phone.apk"
+                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.25_phone.apk"
                    ],
-    "sha256":  "567e7424a72d356edd1f6418b3b6439dc2ad0bae35e75c00f8d2462c7fa8a6b0",
-    "size":  15643577,
+    "sha256":  "179250318f91425f87932237537c5289bba2ee37a9607dd8185e0246cd3b3f6b",
+    "size":  14950008,
     "force":  false,
     "minSupported":  0,
     "channels":  {
                      "phone":  {
-                                   "versionCode":  103,
-                                   "versionName":  "0.26.24",
-                                   "notes":  "feat: 播放页底部控制条双端重构 + 诊断局域网发送（0.26.24）",
-                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.24/TVPlayer_v0.26.24_phone.apk",
+                                   "versionCode":  104,
+                                   "versionName":  "0.26.25",
+                                   "notes":  "TVPlayer 0.26.25：音频焦点与媒体会话、启动 IO 异步化；移除 A-B、播放信息、截图、外部播放器、可调步长与主题开关",
+                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.25/TVPlayer_v0.26.25_phone.apk",
                                    "apkMirrors":  [
-                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.24_phone.apk"
+                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.25_phone.apk"
                                                   ],
-                                   "sha256":  "567e7424a72d356edd1f6418b3b6439dc2ad0bae35e75c00f8d2462c7fa8a6b0",
-                                   "size":  15643577,
+                                   "sha256":  "179250318f91425f87932237537c5289bba2ee37a9607dd8185e0246cd3b3f6b",
+                                   "size":  14950008,
                                    "force":  false,
                                    "minSupported":  0
                                },
                      "tv":  {
-                                "versionCode":  103,
-                                "versionName":  "0.26.24",
-                                "notes":  "feat: 播放页底部控制条双端重构 + 诊断局域网发送（0.26.24）",
-                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.24/TVPlayer_v0.26.24_tv.apk",
+                                "versionCode":  104,
+                                "versionName":  "0.26.25",
+                                "notes":  "TVPlayer 0.26.25：音频焦点与媒体会话、启动 IO 异步化；移除 A-B、播放信息、截图、外部播放器、可调步长与主题开关",
+                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.25/TVPlayer_v0.26.25_tv.apk",
                                 "apkMirrors":  [
-                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.24_tv.apk"
+                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.25_tv.apk"
                                                ],
-                                "sha256":  "764ce923789a0a6f51ff789d3f0ef548c8428107d99f9b7a60d76dab413256cb",
-                                "size":  15632563,
+                                "sha256":  "6b2f251b2f27ff879e93d5d291be14acfbd76f7f1799e973df87b4b7f732736e",
+                                "size":  14937577,
                                 "force":  false,
                                 "minSupported":  0
                             }
