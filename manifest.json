@@ -4,7 +4,8 @@
     "notes":  "TVPlayer 0.26.26：更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
     "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.27/TVPlayer_v0.26.27_phone.apk",
     "apkMirrors":  [
-                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_phone.apk"
+                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_phone.apk",
+                       "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.27_phone.apk"
                    ],
     "sha256":  "d5d85e40805afbf909d4e8ee428b5205e71a85856249d7d8ee58719baa19d9f1",
     "size":  14980504,
@@ -17,7 +18,8 @@
                                    "notes":  "TVPlayer 0.26.26：更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
                                    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.27/TVPlayer_v0.26.27_phone.apk",
                                    "apkMirrors":  [
-                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_phone.apk"
+                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_phone.apk",
+                                                      "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.27_phone.apk"
                                                   ],
                                    "sha256":  "d5d85e40805afbf909d4e8ee428b5205e71a85856249d7d8ee58719baa19d9f1",
                                    "size":  14980504,
@@ -30,7 +32,8 @@
                                 "notes":  "TVPlayer 0.26.26：更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
                                 "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.27/TVPlayer_v0.26.27_tv.apk",
                                 "apkMirrors":  [
-                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_tv.apk"
+                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_tv.apk",
+                                                   "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.27_tv.apk"
                                                ],
                                 "sha256":  "678d76792c7bc34348e4620460d50d929e7a98f6f84db10beb81171d85405f33",
                                 "size":  14967201,
