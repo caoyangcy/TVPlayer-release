@@ -1,7 +1,7 @@
 {
     "versionCode":  101,
     "versionName":  "0.26.22",
-    "notes":  "发布产物只保留最新包：publish.cmd 成功后清理本地旧包与临时清单、支持 --keep-previous；AGENTS.md 写入规则；补双安装包拆分方案文档",
+    "notes":  "新增手机/电视双安装包：com.cyjsy.tvplayer 与 com.cyjsy.tvplayer.tv 可共存，发布链路支持双资产与双通道（顶层仍为手机通道）",
     "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.22/TVPlayer_v0.26.22_phone.apk",
     "apkMirrors":  [
                        "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.22_phone.apk"
@@ -14,7 +14,7 @@
                      "phone":  {
                                    "versionCode":  101,
                                    "versionName":  "0.26.22",
-                                   "notes":  "发布产物只保留最新包：publish.cmd 成功后清理本地旧包与临时清单、支持 --keep-previous；AGENTS.md 写入规则；补双安装包拆分方案文档",
+                                   "notes":  "新增手机/电视双安装包：com.cyjsy.tvplayer 与 com.cyjsy.tvplayer.tv 可共存，发布链路支持双资产与双通道（顶层仍为手机通道）",
                                    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.22/TVPlayer_v0.26.22_phone.apk",
                                    "apkMirrors":  [
                                                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.22_phone.apk"
@@ -27,7 +27,7 @@
                      "tv":  {
                                 "versionCode":  101,
                                 "versionName":  "0.26.22",
-                                "notes":  "发布产物只保留最新包：publish.cmd 成功后清理本地旧包与临时清单、支持 --keep-previous；AGENTS.md 写入规则；补双安装包拆分方案文档",
+                                "notes":  "新增手机/电视双安装包：com.cyjsy.tvplayer 与 com.cyjsy.tvplayer.tv 可共存，发布链路支持双资产与双通道（顶层仍为手机通道）",
                                 "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.22/TVPlayer_v0.26.22_tv.apk",
                                 "apkMirrors":  [
                                                    "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.22_tv.apk"
