@@ -1,7 +1,7 @@
 {
     "versionCode":  106,
     "versionName":  "0.26.27",
-    "notes":  "TVPlayer 0.26.26：更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
+    "notes":  "TVPlayer 0.26.27：主题三档与浅色模式语义色修复；0.26.26 更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
     "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.27/TVPlayer_v0.26.27_phone.apk",
     "apkMirrors":  [
                        "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_phone.apk",
@@ -15,7 +15,7 @@
                      "phone":  {
                                    "versionCode":  106,
                                    "versionName":  "0.26.27",
-                                   "notes":  "TVPlayer 0.26.26：更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
+                                   "notes":  "TVPlayer 0.26.27：主题三档与浅色模式语义色修复；0.26.26 更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
                                    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.27/TVPlayer_v0.26.27_phone.apk",
                                    "apkMirrors":  [
                                                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_phone.apk",
@@ -29,7 +29,7 @@
                      "tv":  {
                                 "versionCode":  106,
                                 "versionName":  "0.26.27",
-                                "notes":  "TVPlayer 0.26.26：更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
+                                "notes":  "TVPlayer 0.26.27：主题三档与浅色模式语义色修复；0.26.26 更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
                                 "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.27/TVPlayer_v0.26.27_tv.apk",
                                 "apkMirrors":  [
                                                    "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_tv.apk",
