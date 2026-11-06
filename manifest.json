@@ -1,42 +1,39 @@
 {
-    "versionCode":  106,
-    "versionName":  "0.26.27",
-    "notes":  "TVPlayer 0.26.27：主题三档与浅色模式语义色修复；0.26.26 更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.27/TVPlayer_v0.26.27_phone.apk",
+    "versionCode":  107,
+    "versionName":  "0.26.28",
+    "notes":  "TVPlayer 0.26.28（第三批：播放与交互审计第 3、4、7、9、10 项）\n\n- 分类页新增「最新 / 最热 / 评分」排序：透传 by 参数，切换即清空并从第 1 页重载，保留一级/二级筛选、滚动归顶；源不支持该排序时自动回退默认序并提示，不出现空网格。手机端排序 chip 与分类筛选同行横滑；电视端 chip 可聚焦、左右切换、焦点态与选中态区分。\n- 播放倍速 0.75/1.0/1.25/1.5/2.0：入口在电视「更多」面板与手机底部条「更多」浮层，入口显示当前倍速；切集、切线路、跨源换片、软解重建后保持，退出播放页复位 1.0；直播页不提供倍速并说明原因。\n- 字幕：列出内嵌字幕轨道并支持多语言切换，保留外挂文件导入；菜单拆为轨道选择 / 字号 / 样式 / 时间轴偏移。样式改用 CaptionStyleCompat（描边 + 半透明背景 + 三档字号），跟随浅色/深色语义色。外挂 SRT 支持 ±10s 偏移（0.1s/1s 步进，会话内生效、切集保留）；受 Media3 限制内嵌字幕暂不支持时间轴偏移，菜单会如实说明；无内嵌轨道显示「本片无内嵌字幕」。\n- 画中画（仅手机包）：进入小窗自动隐藏控制条、顶部信息与各类浮层，退出恢复；小窗内不显示按钮；默认不自动进入，保留「小窗」手动入口，系统不允许时给出可读提示。电视包不启用该能力，入口不出现。\n- 电视音频直通：设置页新增开关（默认关闭），展示可直通编码（AC3/EAC3/DTS）、可解码编码与外接音频设备；开启失败自动回退 PCM 并提示，关闭恢复默认；手机端不显示该设置项。\n\n手机端：分类排序、倍速、字幕、画中画、失败面板焦点等生效；无音频直通设置项。\n电视端：分类排序 chip 遥控焦点、倍速入口、字幕菜单、音频直通设置生效；无画中画入口。\n\nversionCode: 107",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.28/TVPlayer_v0.26.28_phone.apk",
     "apkMirrors":  [
-                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_phone.apk",
-                       "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.27_phone.apk"
+                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.28_phone.apk"
                    ],
-    "sha256":  "d5d85e40805afbf909d4e8ee428b5205e71a85856249d7d8ee58719baa19d9f1",
-    "size":  14980504,
+    "sha256":  "c49a174989393cb6b1bb9bb9e03556e8166af66845ec102a59e5fd4adf575156",
+    "size":  15009448,
     "force":  false,
     "minSupported":  0,
     "channels":  {
                      "phone":  {
-                                   "versionCode":  106,
-                                   "versionName":  "0.26.27",
-                                   "notes":  "TVPlayer 0.26.27：主题三档与浅色模式语义色修复；0.26.26 更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
-                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.27/TVPlayer_v0.26.27_phone.apk",
+                                   "versionCode":  107,
+                                   "versionName":  "0.26.28",
+                                   "notes":  "TVPlayer 0.26.28（第三批：播放与交互审计第 3、4、7、9、10 项）\n\n- 分类页新增「最新 / 最热 / 评分」排序：透传 by 参数，切换即清空并从第 1 页重载，保留一级/二级筛选、滚动归顶；源不支持该排序时自动回退默认序并提示，不出现空网格。手机端排序 chip 与分类筛选同行横滑；电视端 chip 可聚焦、左右切换、焦点态与选中态区分。\n- 播放倍速 0.75/1.0/1.25/1.5/2.0：入口在电视「更多」面板与手机底部条「更多」浮层，入口显示当前倍速；切集、切线路、跨源换片、软解重建后保持，退出播放页复位 1.0；直播页不提供倍速并说明原因。\n- 字幕：列出内嵌字幕轨道并支持多语言切换，保留外挂文件导入；菜单拆为轨道选择 / 字号 / 样式 / 时间轴偏移。样式改用 CaptionStyleCompat（描边 + 半透明背景 + 三档字号），跟随浅色/深色语义色。外挂 SRT 支持 ±10s 偏移（0.1s/1s 步进，会话内生效、切集保留）；受 Media3 限制内嵌字幕暂不支持时间轴偏移，菜单会如实说明；无内嵌轨道显示「本片无内嵌字幕」。\n- 画中画（仅手机包）：进入小窗自动隐藏控制条、顶部信息与各类浮层，退出恢复；小窗内不显示按钮；默认不自动进入，保留「小窗」手动入口，系统不允许时给出可读提示。电视包不启用该能力，入口不出现。\n- 电视音频直通：设置页新增开关（默认关闭），展示可直通编码（AC3/EAC3/DTS）、可解码编码与外接音频设备；开启失败自动回退 PCM 并提示，关闭恢复默认；手机端不显示该设置项。\n\n手机端：分类排序、倍速、字幕、画中画、失败面板焦点等生效；无音频直通设置项。\n电视端：分类排序 chip 遥控焦点、倍速入口、字幕菜单、音频直通设置生效；无画中画入口。\n\nversionCode: 107",
+                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.28/TVPlayer_v0.26.28_phone.apk",
                                    "apkMirrors":  [
-                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_phone.apk",
-                                                      "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.27_phone.apk"
+                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.28_phone.apk"
                                                   ],
-                                   "sha256":  "d5d85e40805afbf909d4e8ee428b5205e71a85856249d7d8ee58719baa19d9f1",
-                                   "size":  14980504,
+                                   "sha256":  "c49a174989393cb6b1bb9bb9e03556e8166af66845ec102a59e5fd4adf575156",
+                                   "size":  15009448,
                                    "force":  false,
                                    "minSupported":  0
                                },
                      "tv":  {
-                                "versionCode":  106,
-                                "versionName":  "0.26.27",
-                                "notes":  "TVPlayer 0.26.27：主题三档与浅色模式语义色修复；0.26.26 更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
-                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.27/TVPlayer_v0.26.27_tv.apk",
+                                "versionCode":  107,
+                                "versionName":  "0.26.28",
+                                "notes":  "TVPlayer 0.26.28（第三批：播放与交互审计第 3、4、7、9、10 项）\n\n- 分类页新增「最新 / 最热 / 评分」排序：透传 by 参数，切换即清空并从第 1 页重载，保留一级/二级筛选、滚动归顶；源不支持该排序时自动回退默认序并提示，不出现空网格。手机端排序 chip 与分类筛选同行横滑；电视端 chip 可聚焦、左右切换、焦点态与选中态区分。\n- 播放倍速 0.75/1.0/1.25/1.5/2.0：入口在电视「更多」面板与手机底部条「更多」浮层，入口显示当前倍速；切集、切线路、跨源换片、软解重建后保持，退出播放页复位 1.0；直播页不提供倍速并说明原因。\n- 字幕：列出内嵌字幕轨道并支持多语言切换，保留外挂文件导入；菜单拆为轨道选择 / 字号 / 样式 / 时间轴偏移。样式改用 CaptionStyleCompat（描边 + 半透明背景 + 三档字号），跟随浅色/深色语义色。外挂 SRT 支持 ±10s 偏移（0.1s/1s 步进，会话内生效、切集保留）；受 Media3 限制内嵌字幕暂不支持时间轴偏移，菜单会如实说明；无内嵌轨道显示「本片无内嵌字幕」。\n- 画中画（仅手机包）：进入小窗自动隐藏控制条、顶部信息与各类浮层，退出恢复；小窗内不显示按钮；默认不自动进入，保留「小窗」手动入口，系统不允许时给出可读提示。电视包不启用该能力，入口不出现。\n- 电视音频直通：设置页新增开关（默认关闭），展示可直通编码（AC3/EAC3/DTS）、可解码编码与外接音频设备；开启失败自动回退 PCM 并提示，关闭恢复默认；手机端不显示该设置项。\n\n手机端：分类排序、倍速、字幕、画中画、失败面板焦点等生效；无音频直通设置项。\n电视端：分类排序 chip 遥控焦点、倍速入口、字幕菜单、音频直通设置生效；无画中画入口。\n\nversionCode: 107",
+                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.28/TVPlayer_v0.26.28_tv.apk",
                                 "apkMirrors":  [
-                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_tv.apk",
-                                                   "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.27_tv.apk"
+                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.28_tv.apk"
                                                ],
-                                "sha256":  "678d76792c7bc34348e4620460d50d929e7a98f6f84db10beb81171d85405f33",
-                                "size":  14967201,
+                                "sha256":  "31488f7215b9118fd592aad2bd8d0cc5e1a763f6ca91849762009fc2c1f4eec1",
+                                "size":  14996517,
                                 "force":  false,
                                 "minSupported":  0
                             }
