@@ -1,39 +1,39 @@
 {
-    "versionCode":  101,
-    "versionName":  "0.26.22",
-    "notes":  "新增手机/电视双安装包：com.cyjsy.tvplayer 与 com.cyjsy.tvplayer.tv 可共存，发布链路支持双资产与双通道（顶层仍为手机通道）",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.22/TVPlayer_v0.26.22_phone.apk",
+    "versionCode":  102,
+    "versionName":  "0.26.23",
+    "notes":  "双包第 3 步：电视判断改为编译期 IS_TV_BUILD",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.23/TVPlayer_v0.26.23_phone.apk",
     "apkMirrors":  [
-                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.22_phone.apk"
+                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.23_phone.apk"
                    ],
-    "sha256":  "63d2cf9de8dc925665b0a777ec44c94fff7bdb88f96cd75a9e1489dedcf62dd6",
-    "size":  14621828,
+    "sha256":  "fdb58ddc1b5c1b5359aa785d5acc5fe539226df568ddfb0cb47f0469379f6763",
+    "size":  14617996,
     "force":  false,
     "minSupported":  0,
     "channels":  {
                      "phone":  {
-                                   "versionCode":  101,
-                                   "versionName":  "0.26.22",
-                                   "notes":  "新增手机/电视双安装包：com.cyjsy.tvplayer 与 com.cyjsy.tvplayer.tv 可共存，发布链路支持双资产与双通道（顶层仍为手机通道）",
-                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.22/TVPlayer_v0.26.22_phone.apk",
+                                   "versionCode":  102,
+                                   "versionName":  "0.26.23",
+                                   "notes":  "双包第 3 步：电视判断改为编译期 IS_TV_BUILD",
+                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.23/TVPlayer_v0.26.23_phone.apk",
                                    "apkMirrors":  [
-                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.22_phone.apk"
+                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.23_phone.apk"
                                                   ],
-                                   "sha256":  "63d2cf9de8dc925665b0a777ec44c94fff7bdb88f96cd75a9e1489dedcf62dd6",
-                                   "size":  14621828,
+                                   "sha256":  "fdb58ddc1b5c1b5359aa785d5acc5fe539226df568ddfb0cb47f0469379f6763",
+                                   "size":  14617996,
                                    "force":  false,
                                    "minSupported":  0
                                },
                      "tv":  {
-                                "versionCode":  101,
-                                "versionName":  "0.26.22",
-                                "notes":  "新增手机/电视双安装包：com.cyjsy.tvplayer 与 com.cyjsy.tvplayer.tv 可共存，发布链路支持双资产与双通道（顶层仍为手机通道）",
-                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.22/TVPlayer_v0.26.22_tv.apk",
+                                "versionCode":  102,
+                                "versionName":  "0.26.23",
+                                "notes":  "双包第 3 步：电视判断改为编译期 IS_TV_BUILD",
+                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.23/TVPlayer_v0.26.23_tv.apk",
                                 "apkMirrors":  [
-                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.22_tv.apk"
+                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.23_tv.apk"
                                                ],
-                                "sha256":  "009cb32209938b5d7bf3ddd5fb6b84b376105f7ded48ab5de9ee98cc2cbc26e1",
-                                "size":  14607297,
+                                "sha256":  "8b2c54f21565c94a44bb75bdf9452df66753d65422c5efced0d264daf547250c",
+                                "size":  14605689,
                                 "force":  false,
                                 "minSupported":  0
                             }
