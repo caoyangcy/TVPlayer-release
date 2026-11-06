@@ -1,42 +1,39 @@
 {
-    "versionCode":  105,
-    "versionName":  "0.26.26",
+    "versionCode":  106,
+    "versionName":  "0.26.27",
     "notes":  "TVPlayer 0.26.26：更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.26/TVPlayer_v0.26.26_phone.apk",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.27/TVPlayer_v0.26.27_phone.apk",
     "apkMirrors":  [
-                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.26_phone.apk",
-                       "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.26_phone.apk"
+                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_phone.apk"
                    ],
-    "sha256":  "f7978215dd3ad331ffc1eecde29146c7a0baa32a4d38f0541ad057c77ba10959",
-    "size":  14971956,
+    "sha256":  "d5d85e40805afbf909d4e8ee428b5205e71a85856249d7d8ee58719baa19d9f1",
+    "size":  14980504,
     "force":  false,
     "minSupported":  0,
     "channels":  {
                      "phone":  {
-                                   "versionCode":  105,
-                                   "versionName":  "0.26.26",
+                                   "versionCode":  106,
+                                   "versionName":  "0.26.27",
                                    "notes":  "TVPlayer 0.26.26：更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
-                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.26/TVPlayer_v0.26.26_phone.apk",
+                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.27/TVPlayer_v0.26.27_phone.apk",
                                    "apkMirrors":  [
-                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.26_phone.apk",
-                                                      "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.26_phone.apk"
+                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_phone.apk"
                                                   ],
-                                   "sha256":  "f7978215dd3ad331ffc1eecde29146c7a0baa32a4d38f0541ad057c77ba10959",
-                                   "size":  14971956,
+                                   "sha256":  "d5d85e40805afbf909d4e8ee428b5205e71a85856249d7d8ee58719baa19d9f1",
+                                   "size":  14980504,
                                    "force":  false,
                                    "minSupported":  0
                                },
                      "tv":  {
-                                "versionCode":  105,
-                                "versionName":  "0.26.26",
+                                "versionCode":  106,
+                                "versionName":  "0.26.27",
                                 "notes":  "TVPlayer 0.26.26：更新下载多镜像与断点续传、直播缓冲与换台预热、时移能力判定与降级提示、昨天 EPG",
-                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.26/TVPlayer_v0.26.26_tv.apk",
+                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.27/TVPlayer_v0.26.27_tv.apk",
                                 "apkMirrors":  [
-                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.26_tv.apk",
-                                                   "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.26_tv.apk"
+                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.27_tv.apk"
                                                ],
-                                "sha256":  "b4f42eab074e5daeca1f2d924d2270ada568832a2df5e360bb1ff5c67e411676",
-                                "size":  14958381,
+                                "sha256":  "678d76792c7bc34348e4620460d50d929e7a98f6f84db10beb81171d85405f33",
+                                "size":  14967201,
                                 "force":  false,
                                 "minSupported":  0
                             }
