@@ -1,42 +1,42 @@
 {
-    "versionCode":  109,
-    "versionName":  "0.26.30",
-    "notes":  "TVPlayer 0.26.30（局域网诊断发送 + 电视更新说明修复）\n\n- 修复电视包「设置 → 诊断与日志 → 局域网发送」扫码后浏览器显示 not found：根因是令牌在首次请求（含 HEAD 与扫码器预览）即被消费，随后的正式 GET 必然 404；现改为服务存活期内可重复下载，扫码预览、浏览器预取与刷新都不再失效。\n- 文件名按 URL path 规则 percent-encoding（中文、空格等），服务端解码后比对，并兼容二次编码与 query / fragment。\n- 404 / 405 返回可读中文文案，区分「地址无效或已过期」「诊断文件不存在」「局域网发送已停止」「仅支持 GET / HEAD」。\n- 选择局域网 IP 时排除 VPN、移动数据、Wi-Fi Direct 等虚拟网卡，优先 Wi-Fi 私有地址。\n- 诊断导出新增「局域网发送请求」段：最近 20 条方法、路径（token 已打码）、状态码、来源 IP，便于定位扫码访问了哪个地址。\n- 局域网面板提示改为「服务开启期间可重复下载；停止或离开页面后地址立即失效」。\n- 修复电视包「更新说明」被中文逗号、顿号、分号拆成多个编号导致语义破碎的问题：现在只按换行与已有编号分条，行内标点原样保留，序号与正文换行对齐。\n- 电视更新说明字号放大（正文 18sp、标题 24sp），说明区可聚焦并用上下键滚动，到顶部/底部自动把按键交回焦点系统；按钮统一可见焦点，默认焦点落在「关闭」，返回键可关闭；弹窗尺寸保持在 overscan 安全区内。手机档字号与布局不变。\n\n手机端：局域网发送与诊断导出同步修复；更新说明分行规则修正；弹窗字号与布局保持原样。\n电视端：扫码下载修复，更新说明完整可读、可滚动、按钮焦点可见、默认聚焦「关闭」，返回键关闭。\n\nversionCode: 109",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.30/TVPlayer_v0.26.30_phone.apk",
+    "versionCode":  110,
+    "versionName":  "0.26.31",
+    "notes":  "TVPlayer 0.26.31（恢复被忽略的更新提示）\n\n- 「忽略此版本」现在可撤销：更新说明弹窗内，本地存在该版本的忽略记录时，与「忽略此版本」并排显示「恢复此版本提示」；无记录时不显示，不留空位也不置灰。\n- 点击后清除对应的 versionCode 忽略记录（持久化键 update_ignored_code / update_ignored_name），卡片立即从「已忽略」回到「有新版本」，无需重启、无需重新联网。\n- 更新卡片在已忽略状态新增「查看说明」入口（重启后需先点一次「检查更新」重新拉取详情）；状态文案区分「已忽略」与「已是最新」。\n- 忽略语义不变：只针对该 versionCode，出现更高版本仍正常提示。\n- 电视端弹窗按钮均可聚焦并有可见焦点，默认焦点仍落在「关闭」，返回键可关闭。\n\n手机端：忽略 / 恢复入口与卡片状态同步可用。\n电视端：按钮焦点可见，默认焦点「关闭」，恢复后卡片立即回到「有新版本」。\n\nversionCode: 110",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.31/TVPlayer_v0.26.31_phone.apk",
     "apkMirrors":  [
-                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.30_phone.apk",
-                       "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.30_phone.apk"
+                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.31_phone.apk",
+                       "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.31_phone.apk"
                    ],
-    "sha256":  "33e73de1c6934737600f0ce92ffec69c1a81b3d7ab85eca5d9e412a57a843780",
-    "size":  15778930,
+    "sha256":  "93192f396f8788e5a3af36745c16bf343aa9627359c80d26ff1ebefccfa5472a",
+    "size":  15043644,
     "force":  false,
     "minSupported":  0,
     "channels":  {
                      "phone":  {
-                                   "versionCode":  109,
-                                   "versionName":  "0.26.30",
-                                   "notes":  "TVPlayer 0.26.30（局域网诊断发送 + 电视更新说明修复）\n\n- 修复电视包「设置 → 诊断与日志 → 局域网发送」扫码后浏览器显示 not found：根因是令牌在首次请求（含 HEAD 与扫码器预览）即被消费，随后的正式 GET 必然 404；现改为服务存活期内可重复下载，扫码预览、浏览器预取与刷新都不再失效。\n- 文件名按 URL path 规则 percent-encoding（中文、空格等），服务端解码后比对，并兼容二次编码与 query / fragment。\n- 404 / 405 返回可读中文文案，区分「地址无效或已过期」「诊断文件不存在」「局域网发送已停止」「仅支持 GET / HEAD」。\n- 选择局域网 IP 时排除 VPN、移动数据、Wi-Fi Direct 等虚拟网卡，优先 Wi-Fi 私有地址。\n- 诊断导出新增「局域网发送请求」段：最近 20 条方法、路径（token 已打码）、状态码、来源 IP，便于定位扫码访问了哪个地址。\n- 局域网面板提示改为「服务开启期间可重复下载；停止或离开页面后地址立即失效」。\n- 修复电视包「更新说明」被中文逗号、顿号、分号拆成多个编号导致语义破碎的问题：现在只按换行与已有编号分条，行内标点原样保留，序号与正文换行对齐。\n- 电视更新说明字号放大（正文 18sp、标题 24sp），说明区可聚焦并用上下键滚动，到顶部/底部自动把按键交回焦点系统；按钮统一可见焦点，默认焦点落在「关闭」，返回键可关闭；弹窗尺寸保持在 overscan 安全区内。手机档字号与布局不变。\n\n手机端：局域网发送与诊断导出同步修复；更新说明分行规则修正；弹窗字号与布局保持原样。\n电视端：扫码下载修复，更新说明完整可读、可滚动、按钮焦点可见、默认聚焦「关闭」，返回键关闭。\n\nversionCode: 109",
-                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.30/TVPlayer_v0.26.30_phone.apk",
+                                   "versionCode":  110,
+                                   "versionName":  "0.26.31",
+                                   "notes":  "TVPlayer 0.26.31（恢复被忽略的更新提示）\n\n- 「忽略此版本」现在可撤销：更新说明弹窗内，本地存在该版本的忽略记录时，与「忽略此版本」并排显示「恢复此版本提示」；无记录时不显示，不留空位也不置灰。\n- 点击后清除对应的 versionCode 忽略记录（持久化键 update_ignored_code / update_ignored_name），卡片立即从「已忽略」回到「有新版本」，无需重启、无需重新联网。\n- 更新卡片在已忽略状态新增「查看说明」入口（重启后需先点一次「检查更新」重新拉取详情）；状态文案区分「已忽略」与「已是最新」。\n- 忽略语义不变：只针对该 versionCode，出现更高版本仍正常提示。\n- 电视端弹窗按钮均可聚焦并有可见焦点，默认焦点仍落在「关闭」，返回键可关闭。\n\n手机端：忽略 / 恢复入口与卡片状态同步可用。\n电视端：按钮焦点可见，默认焦点「关闭」，恢复后卡片立即回到「有新版本」。\n\nversionCode: 110",
+                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.31/TVPlayer_v0.26.31_phone.apk",
                                    "apkMirrors":  [
-                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.30_phone.apk",
-                                                      "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.30_phone.apk"
+                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.31_phone.apk",
+                                                      "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.31_phone.apk"
                                                   ],
-                                   "sha256":  "33e73de1c6934737600f0ce92ffec69c1a81b3d7ab85eca5d9e412a57a843780",
-                                   "size":  15778930,
+                                   "sha256":  "93192f396f8788e5a3af36745c16bf343aa9627359c80d26ff1ebefccfa5472a",
+                                   "size":  15043644,
                                    "force":  false,
                                    "minSupported":  0
                                },
                      "tv":  {
-                                "versionCode":  109,
-                                "versionName":  "0.26.30",
-                                "notes":  "TVPlayer 0.26.30（局域网诊断发送 + 电视更新说明修复）\n\n- 修复电视包「设置 → 诊断与日志 → 局域网发送」扫码后浏览器显示 not found：根因是令牌在首次请求（含 HEAD 与扫码器预览）即被消费，随后的正式 GET 必然 404；现改为服务存活期内可重复下载，扫码预览、浏览器预取与刷新都不再失效。\n- 文件名按 URL path 规则 percent-encoding（中文、空格等），服务端解码后比对，并兼容二次编码与 query / fragment。\n- 404 / 405 返回可读中文文案，区分「地址无效或已过期」「诊断文件不存在」「局域网发送已停止」「仅支持 GET / HEAD」。\n- 选择局域网 IP 时排除 VPN、移动数据、Wi-Fi Direct 等虚拟网卡，优先 Wi-Fi 私有地址。\n- 诊断导出新增「局域网发送请求」段：最近 20 条方法、路径（token 已打码）、状态码、来源 IP，便于定位扫码访问了哪个地址。\n- 局域网面板提示改为「服务开启期间可重复下载；停止或离开页面后地址立即失效」。\n- 修复电视包「更新说明」被中文逗号、顿号、分号拆成多个编号导致语义破碎的问题：现在只按换行与已有编号分条，行内标点原样保留，序号与正文换行对齐。\n- 电视更新说明字号放大（正文 18sp、标题 24sp），说明区可聚焦并用上下键滚动，到顶部/底部自动把按键交回焦点系统；按钮统一可见焦点，默认焦点落在「关闭」，返回键可关闭；弹窗尺寸保持在 overscan 安全区内。手机档字号与布局不变。\n\n手机端：局域网发送与诊断导出同步修复；更新说明分行规则修正；弹窗字号与布局保持原样。\n电视端：扫码下载修复，更新说明完整可读、可滚动、按钮焦点可见、默认聚焦「关闭」，返回键关闭。\n\nversionCode: 109",
-                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.30/TVPlayer_v0.26.30_tv.apk",
+                                "versionCode":  110,
+                                "versionName":  "0.26.31",
+                                "notes":  "TVPlayer 0.26.31（恢复被忽略的更新提示）\n\n- 「忽略此版本」现在可撤销：更新说明弹窗内，本地存在该版本的忽略记录时，与「忽略此版本」并排显示「恢复此版本提示」；无记录时不显示，不留空位也不置灰。\n- 点击后清除对应的 versionCode 忽略记录（持久化键 update_ignored_code / update_ignored_name），卡片立即从「已忽略」回到「有新版本」，无需重启、无需重新联网。\n- 更新卡片在已忽略状态新增「查看说明」入口（重启后需先点一次「检查更新」重新拉取详情）；状态文案区分「已忽略」与「已是最新」。\n- 忽略语义不变：只针对该 versionCode，出现更高版本仍正常提示。\n- 电视端弹窗按钮均可聚焦并有可见焦点，默认焦点仍落在「关闭」，返回键可关闭。\n\n手机端：忽略 / 恢复入口与卡片状态同步可用。\n电视端：按钮焦点可见，默认焦点「关闭」，恢复后卡片立即回到「有新版本」。\n\nversionCode: 110",
+                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.31/TVPlayer_v0.26.31_tv.apk",
                                 "apkMirrors":  [
-                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.30_tv.apk",
-                                                   "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.30_tv.apk"
+                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.31_tv.apk",
+                                                   "https://cdn.jsdelivr.net/gh/caoyangcy/TVPlayer-release@main/TVPlayer_v0.26.31_tv.apk"
                                                ],
-                                "sha256":  "3fbba2413c8fca4936bd707faad8325feaa9878191bc317bc26b56b2ac69384c",
-                                "size":  15767212,
+                                "sha256":  "ef0209ecffed5743fd16f168064ad3a14ccc4dc418f0a579fe1df01074cc6264",
+                                "size":  15030645,
                                 "force":  false,
                                 "minSupported":  0
                             }
