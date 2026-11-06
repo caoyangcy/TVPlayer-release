@@ -1,39 +1,39 @@
 {
-    "versionCode":  102,
-    "versionName":  "0.26.23",
-    "notes":  "双包第 3 步：电视判断改为编译期 IS_TV_BUILD",
-    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.23/TVPlayer_v0.26.23_phone.apk",
+    "versionCode":  103,
+    "versionName":  "0.26.24",
+    "notes":  "feat: 播放页底部控制条双端重构 + 诊断局域网发送（0.26.24）",
+    "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.24/TVPlayer_v0.26.24_phone.apk",
     "apkMirrors":  [
-                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.23_phone.apk"
+                       "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.24_phone.apk"
                    ],
-    "sha256":  "fdb58ddc1b5c1b5359aa785d5acc5fe539226df568ddfb0cb47f0469379f6763",
-    "size":  14617996,
+    "sha256":  "567e7424a72d356edd1f6418b3b6439dc2ad0bae35e75c00f8d2462c7fa8a6b0",
+    "size":  15643577,
     "force":  false,
     "minSupported":  0,
     "channels":  {
                      "phone":  {
-                                   "versionCode":  102,
-                                   "versionName":  "0.26.23",
-                                   "notes":  "双包第 3 步：电视判断改为编译期 IS_TV_BUILD",
-                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.23/TVPlayer_v0.26.23_phone.apk",
+                                   "versionCode":  103,
+                                   "versionName":  "0.26.24",
+                                   "notes":  "feat: 播放页底部控制条双端重构 + 诊断局域网发送（0.26.24）",
+                                   "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.24/TVPlayer_v0.26.24_phone.apk",
                                    "apkMirrors":  [
-                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.23_phone.apk"
+                                                      "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.24_phone.apk"
                                                   ],
-                                   "sha256":  "fdb58ddc1b5c1b5359aa785d5acc5fe539226df568ddfb0cb47f0469379f6763",
-                                   "size":  14617996,
+                                   "sha256":  "567e7424a72d356edd1f6418b3b6439dc2ad0bae35e75c00f8d2462c7fa8a6b0",
+                                   "size":  15643577,
                                    "force":  false,
                                    "minSupported":  0
                                },
                      "tv":  {
-                                "versionCode":  102,
-                                "versionName":  "0.26.23",
-                                "notes":  "双包第 3 步：电视判断改为编译期 IS_TV_BUILD",
-                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.23/TVPlayer_v0.26.23_tv.apk",
+                                "versionCode":  103,
+                                "versionName":  "0.26.24",
+                                "notes":  "feat: 播放页底部控制条双端重构 + 诊断局域网发送（0.26.24）",
+                                "apkUrl":  "https://github.com/caoyangcy/TVPlayer-release/releases/download/v0.26.24/TVPlayer_v0.26.24_tv.apk",
                                 "apkMirrors":  [
-                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.23_tv.apk"
+                                                   "https://caoyangcy.github.io/TVPlayer-release/TVPlayer_v0.26.24_tv.apk"
                                                ],
-                                "sha256":  "8b2c54f21565c94a44bb75bdf9452df66753d65422c5efced0d264daf547250c",
-                                "size":  14605689,
+                                "sha256":  "764ce923789a0a6f51ff789d3f0ef548c8428107d99f9b7a60d76dab413256cb",
+                                "size":  15632563,
                                 "force":  false,
                                 "minSupported":  0
                             }
